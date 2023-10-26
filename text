@@ -1,2 +1,3 @@
 git checkout -b am/small_change // create new branch of current_branch you on
 git diff // see difference between current branch and main branch
+git blame {file_path or file_name} // see who changes what
