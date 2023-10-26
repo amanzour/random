@@ -37,6 +37,7 @@ def main(config, device):
         total_param += np.prod(list(param.data.size()))
     # print(model)
     print(f'Model: {type(model).__name__}, Parameters: {total_param}')
+    # lalalalalla
 
     # Load checkpoint
     if config.model_path != '':
